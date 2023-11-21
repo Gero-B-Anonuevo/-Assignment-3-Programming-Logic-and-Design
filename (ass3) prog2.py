@@ -46,7 +46,7 @@ def enter_data():
             address_entry.delete(0, 'end')
 
         else:
-            tk.messagebox.showerror(title="ERROR", message="Pleasen use letters and space only on Full Name and Mode of Payment")
+            tk.messagebox.showerror(title="ERROR", message="Please use letters and space only on Full Name and Mode of Payment")
     else:
         tk.messagebox.showerror(title="ERROR", message="Please fill up the Full Name, Address, and Mode of Payment.")
 # Base window ------------------------------------------------------------------------------------------------------------------------------------------------------
